@@ -7,6 +7,7 @@ First iteration on creating a custom context menu inside a dummy task applicatio
 This project was tested in the following browsers:
 
 * Chrome 39
+* Chromium 56
 * Safari 7
 * Firefox 33
 
