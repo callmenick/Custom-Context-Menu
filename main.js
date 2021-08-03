@@ -88,9 +88,6 @@
   var menuState = 0;
   var menuWidth;
   var menuHeight;
-  var menuPosition;
-  var menuPositionX;
-  var menuPositionY;
 
   var windowWidth;
   var windowHeight;
