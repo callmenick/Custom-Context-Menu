@@ -199,13 +199,13 @@
     windowHeight = window.innerHeight;
 
     if ( (windowWidth - clickCoordsX) < menuWidth ) {
-      menu.style.left = windowWidth - menuWidth + "px";
+      menu.style.left = clickCoordsX - menuWidth + "px";
     } else {
       menu.style.left = clickCoordsX + "px";
     }
 
     if ( (windowHeight - clickCoordsY) < menuHeight ) {
-      menu.style.top = windowHeight - menuHeight + "px";
+      menu.style.top = clickCoordsY - menuHeight + "px";
     } else {
       menu.style.top = clickCoordsY + "px";
     }
